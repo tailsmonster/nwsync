@@ -13,3 +13,5 @@ using std::string;
 vector<uint8_t> readRawBin(const string& path);
 
 void printHex(const vector<uint8_t>& data);
+
+void printStrings(const vector<uint8_t>& data);
