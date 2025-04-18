@@ -20,6 +20,8 @@ int main() {
       printHex(data);
       std::cout << "\n\nExtracted strings from: " << path << "\n" << std::endl;
       printStrings(data);
+      std::cout << "\n\n";
+      extractEntries(data);
   }
 
   return 0;
