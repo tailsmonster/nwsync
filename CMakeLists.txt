@@ -7,6 +7,6 @@ include_directories(include)
 
 add_executable(nwsync
     src/main.cpp
-    src/tstmptbl.cpp
+    src/hex_reader.cpp
+    src/files_utils.cpp
 )
-
